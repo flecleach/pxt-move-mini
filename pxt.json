@@ -1,5 +1,5 @@
 {
-    "name": "Move:mini",
+    "name": "Move-mini",
     "version": "1.0.5",
     "description": "Blocks pour simplifier l'urilisation du Kit MOVE de Kitronik en PXT",
     "license": "MIT",
@@ -8,8 +8,8 @@
     },
     "files": [
         "README.md",
-        "servolite.ts",
-	        "_locales/fr/move-mini-strings.json"
+        "main.ts",
+        "_locales/fr/move-mini-strings.json"
     ],
     "testFiles": [
         "tests.ts"
