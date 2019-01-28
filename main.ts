@@ -1,7 +1,10 @@
 /**
  * Blocks for driving the Kitronik Servo:Lite Board
  */
-//% weight=100 color=#00A654 icon="\uf1b9" block="Servo:Lite"
+/**
+couleur, icone, titre de l'extension
+*/
+//% weight=100 color=#00A654 icon="\uf544" block="Robot Move mini"
 namespace kitronik_servo_lite {
 
 	/************************************************************************************************************************************************
@@ -37,7 +40,7 @@ namespace kitronik_servo_lite {
 	* Turns left. Call stop to stop
 	*/
     //% blockId=kitronik_servolite_servos_left
-    //% block="turn left"
+    //% block="tourner à gauche"
     export function left(): void {
         pins.servoWritePin(AnalogPin.P1, 0);
         pins.servoWritePin(AnalogPin.P2, 0);
