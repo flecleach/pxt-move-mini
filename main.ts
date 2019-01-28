@@ -1,7 +1,7 @@
 /**
  * Blocks for driving the Kitronik Servo:Lite Board
  */
-//% weight=100 color=#00A654 icon="\uf1b9" block="Robot Move mini"
+//% weight=100 color=#00A654 icon="\uf17b" block="Robot Move mini"
 namespace kitronik_servo_lite {
 
 	/************************************************************************************************************************************************
